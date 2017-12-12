@@ -1,0 +1,4 @@
+<agm-map [latitude]="lat" [longitude]="lng" (mapClick)="mapclick($event)" [fullscreenControl] = "true"  [panControl]="true" [rotateControl] = "true" [zoom] = "zoom" [mapTypeControl] = "true"  [mapTypeControl]="mapTypeControl">
+  <agm-marker ></agm-marker>
+  <agm-info-window [latitude]="lat" [longitude]="lng" [isOpen]="isOpen"><div class="container-fluid"><input [value]="infolat"><input [value]="infolng"</div></agm-info-window>
+  </agm-map>
